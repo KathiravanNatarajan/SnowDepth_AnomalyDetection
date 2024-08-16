@@ -17,14 +17,19 @@ docker run --network kafka-qt_kafka-network -it producer-code /bin/bash # kafka-
 
 #############################################################################################
 
-Some useful Docker commands handy: 
+#### Some useful Docker commands: 
 
 docker stop $(docker ps -q) # To stop all running containers 
 docker system prune -a --volumes # System wide cleanup 
-
 docker exec -it 0d96feee8680 /bin/bash # To run the container interactively 
-
-
 docker build -t <image-name>:<tag> . # Docker build on a docker file
+
+#### Some Kubernetes commands to deploy and verify: 
+
+kubectl apply -f deployment.yaml # deploy the containers 
+kubectl get deployments
+kubectl get pods
+kubectl get services
+kubectl scale - to scale 
 
 ##############################################################################################

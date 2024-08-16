@@ -1,5 +1,9 @@
 In this project, We focus on detecting the anomalies in snow depth. 
 
+Datasets used in this project can be downloaded from: 
+
+https://data.ngee-arctic.ornl.gov/data/pages/NGA012.html
+
   Install Docker for Windows: https://docs.docker.com/desktop/install/windows-install/
   Install miniKube for Windows: https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download
 
